@@ -1,0 +1,178 @@
+@media (min-width: 1024px) {
+  #page-home {
+    left: 0;
+    top: 0;
+    height: 3065px;
+    width: 100%;
+    overflow: hidden;
+
+    background: url("../../assets/Prancheta4.png") no-repeat top;
+  }
+
+  .subscribeContainer {
+    width: 438;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribeText {
+    text-align: center;
+    font: normal normal normal 33px/36px D-DIN;
+    letter-spacing: 0px;
+    color: #f5f5f5;
+    opacity: 1;
+    margin-bottom: 32px;
+  }
+
+  .rowSubscribe {
+    display: flex;
+    width: 200;
+    justify-content: center;
+  }
+
+  #emailInput {
+    text-align: center;
+    font: normal normal normal 13px/16px D-DIN;
+    letter-spacing: 1px;
+    color: #f9f9f9;
+    background: transparent;
+    width: 286px;
+    height: 43px;
+    box-shadow: 0px 3px 6px #20e0a0a1;
+    border: 1px solid #20e0a0;
+    border-radius: 12px;
+    opacity: 1;
+    margin-right: 49px;
+  }
+
+  #emailButton {
+    text-align: center;
+    font: normal normal normal 26px/28px D-DIN;
+    letter-spacing: 0px;
+    color: #f9f9f9;
+
+    width: 103px;
+    height: 43px;
+    background: #1ab883 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #20e0a0a1;
+    border: 1px solid #20e0a0;
+    border-radius: 12px;
+    opacity: 1;
+  }
+
+  #subscribeTop {
+    position: absolute;
+    top: 195px;
+    left: 760px;
+    width: 462px;
+    height: 152px;
+  }
+
+  .subscribeTopTitle {
+    text-align: left;
+    font: normal normal normal 70px/76px D-DIN;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 16px;
+  }
+
+  #subscribeBottom {
+    position: absolute;
+    align-items: center;
+    top: 2441px;
+    left: 289px;
+    width: 831px;
+    height: 201px;
+  }
+
+  .subscribeBottomTitle {
+    text-align: center;
+    font: normal normal normal 70px/76px D-DINExp;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 16px;
+  }
+
+  #connectUsIcons {
+    position: absolute;
+    align-items: center;
+    top: 2733px;
+    left: 389px;
+    width: 587px;
+    height: 156px;
+  }
+
+  .iconBottomTitle {
+    text-align: center;
+    font: normal normal normal 52px/57px D-DINExp;
+    letter-spacing: 0px;
+    color: #20e0a0;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+
+  #connectUsIcons div a {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    width: 72px;
+    height: 72px;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+
+  #copyrightContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    top: 3008px;
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: "D-DIN";
+  src: url("../../assets/fonts2/D-DIN.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-DINCondensed";
+  src: url("../../assets/fonts2/D-DINCondensed.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-DINExp";
+  src: url("../../assets/fonts2/D-DINExp.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-DINExp-Bold";
+  src: url("../../assets/fonts2/D-DINExp-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-DINExp-Italic";
+  src: url("../../assets/fonts2/D-DINExp-Italic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "din-boldalternate";
+  src: url("../../assets/fonts2/din-boldalternate.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
